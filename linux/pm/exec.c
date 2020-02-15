@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<sys/types.h>
+#include<sys/wait.h>
+#include<unistd.h>
+main()
+{
+	printf("Hello\n");
+	execlp("cal","2015",NULL);
+}
